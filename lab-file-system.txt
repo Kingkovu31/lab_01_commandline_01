@@ -30,6 +30,7 @@ Check that the output ends with mtec1002 (something like this: /Users/joe/mtec10
 If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
+/Users/student/mtec1002
 ----------
 
 
@@ -41,6 +42,7 @@ $ mkdir animals
 $ ls
 
 Copy and paste the output below.
+animals
 ----------
 
 
@@ -52,6 +54,7 @@ $ mkdir food
 $ ls
 
 Copy and paste the output below.
+animals	food
 ----------
 
 
@@ -63,6 +66,7 @@ $ mkdir -p foo/bar/baz/qux
 $ ls
 
 Copy and paste the output below.
+animals	foo	food
 ----------
 
 
@@ -74,6 +78,7 @@ $ cd foo/bar/baz/qux
 $ pwd
 
 Copy and paste the output below.
+/Users/student/mtec1002/foo/bar/baz/qux
 ----------
 
 
@@ -85,6 +90,7 @@ $ cd ../..
 $ pwd
 
 Copy and paste the output below.
+/Users/student/mtec1002/foo/bar
 ----------
 
 
@@ -96,6 +102,7 @@ $ cd -
 $ pwd
 
 Copy and paste the output below.
+/Users/student/mtec1002/foo/bar/baz/qux
 ----------
 
 
@@ -107,6 +114,7 @@ $ cd ../../../..
 $ pwd
 
 Copy and paste the output below.
+/Users/student/mtec1002
 ----------
 
 
@@ -119,6 +127,8 @@ $ rmdir animals
 $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
+total 0
+drwxr-xr-x  3 student  staff  102 Aug 31 16:44 foo
 ----------
 
 
@@ -130,6 +140,7 @@ $ cd ~
 $ pwd
 
 Copy and paste the output into the space below.
+/Users/student
 ----------
 
 
@@ -141,6 +152,7 @@ $ cd /Volumes
 $ pwd
 
 Copy and paste the output into the space below.
+/volumes
 ----------
 
 
@@ -152,6 +164,7 @@ $ cd /unknown_folder
 $ pwd
 
 Copy and paste the output into the space below.
+/volumes
 ----------
 
 
@@ -163,6 +176,7 @@ $ cd ~/mtec1002
 $ pwd
 
 Copy and paste the output into the space below.
+/Users/student/mtec1002
 ----------
 
 
@@ -173,6 +187,7 @@ Copy and paste the output into the space below.
 $ hostname
 
 Copy and paste the output into the space below.
+ent-v314-009.local
 ----------
 
 
@@ -230,6 +245,7 @@ What is the modified date of the aardvark directory?
 * baz should be inside bar
 
 What command did you use?
+mkdir -pfoo/bar/baz
 ----------
 
 
@@ -238,6 +254,7 @@ What command did you use?
 22. Change your directory so that you're in the inner most directory (baz)
 
 What command did you use?
+
 ----------
 
 
